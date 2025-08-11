@@ -1,0 +1,70 @@
+.container1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.hello {
+    
+    background-color:white;
+    margin-bottom:2px;
+    height: 250px;
+    width: 200px;
+    margin-right: 2px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    margin-top:-20px;
+    
+}
+.img1{
+    height:170px;
+    width:140px;
+    margin-top: 30px;
+    margin-bottom:0px;
+    cursor:pointer;
+   
+    
+}
+.img1:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s;
+  }
+  
+.name{
+    margin-bottom:0px;
+    font-family:arial;
+    font-size:14px;
+    color:rgb(73, 71, 71);
+    
+}
+.price{
+    margin-top: 0px;
+    font-family:arial;
+    font-size:13px;
+    font-weight:bold;
+    margin-bottom:60px;
+}
+.header1{
+    font-family:arial;
+    font-size:20px;
+    font-weight:bold;
+    margin-left:8px;
+    margin-bottom:60px;
+
+}
+
+.header2{
+    font-family:arial;
+    font-size:20px;
+    font-weight:bold;
+    margin-left:8px;
+    margin-bottom:60px;
+    margin-top: 30px;
+}
+.spacer {
+    height:15px;
+    background-color:rgb(226, 226, 226)
+  }
+  
